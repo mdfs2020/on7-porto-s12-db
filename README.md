@@ -17,14 +17,25 @@ Este Banco de Dados tem como característica ser código-fonte aberto licenciado
 <h2>Principais Comandos</h2>
 
 **use nomeDoBanco** Para criar um banco de dados novo
+
 **db.current** Mostra o banco de dados atual
+
 **show databases** Listar todos os bancos de dados
+
 **db.createCollection("collectionNomedaColeção")** Cria uma coleção
+
 **show collections** Lista todas coleções
+
 **db.nomeDaColeção.find()** Busca todos os registros de uma coleção
+
 **db.nomeDaCollection.findOne()** Retorna apenas um registro
+
 **db.nomeDaCollection.insertOne({Atributos})** Inclui o registro dentro de uma coleção
+
 **db.nomeDaCollection.insertMany()** Inclui vários registros
+
 **db.collection.drop()** Apagar uma coleção
+
 **db.dropDatabase()** Remover um banco de dados
+
 **db.nomeDaColeção.find().pretty()** Retorna a coleção com o formato mais legível, do tipo JSON
